@@ -88,7 +88,6 @@
                     return;
                 }
                 
-                // Clear previous QR code
                 qrcode.innerHTML = '';
                 try {
                     const qrImage = document.createElement('img');
@@ -121,7 +120,6 @@
                         alert('Failed to download the QR code. The image might be too large or your browser might not support this feature.');
                     }
                 } else {
-                    // Try to download the image if canvas is not available
                     const img = qrcode.querySelector('img');
                     if (img) {
                         const link = document.createElement('a');
