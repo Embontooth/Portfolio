@@ -27,7 +27,7 @@
     <header id="home">
         <div class="container">
             <h1 id="typing-text" class="glow-text"></h1>
-            <p class="subtitle">Competitive Programmer | Web Developer | Cybersecurity Enthusiast</p>
+            <p class="subtitle">Full-Stack Developer | Cybersecurity Tools | Mobile App Development</p>
             <a href="#contact" class="cta-button">Get in Touch</a>
         </div>
     </header>
@@ -38,9 +38,9 @@
             <div class="about-content">
                 <img src="PortfolioAssets\ProfilePicF.jpg" alt="Dhruv" class="profile-img">
                 <div class="about-text">
-                    <p>Hello! I'm Dhruv, a passionate developer with a keen interest in cybersecurity, backend development, and mobile app development using Flutter.</p>
-                    <p>I love solving complex problems and creating efficient, user-friendly applications. My goal is to leverage technology to make a positive impact on the world.</p>
-                    <p>When I'm not coding, you can find me exploring new technologies, listening to music or participating in hackathons</p>
+                    <p>Hello! I'm Dhruv, a 2nd year Computer Science student at VIT Chennai with a passion for cybersecurity, full-stack development, and mobile app development using Flutter.</p>
+                    <p>I specialize in building secure applications and cybersecurity tools. My recent projects include a full-stack event management app with Flutter and Node.js, and various Python-based security tools for PDF password cracking and subdomain enumeration.</p>
+                    <p>When I'm not coding, you can find me exploring new security techniques, contributing to open-source projects, or participating in hackathons to solve real-world problems.</p>
                     <a href="PortfolioAssets\Resume_2ndYear.pdf" class="cta-button" download="Dhruv_Resume.pdf">Download Resume</a>
                 </div>
             </div>
@@ -53,20 +53,16 @@
             <p>I've worked with a variety of technologies and continue to expand my skillset.</p>
             <div class="skills-container">
                 <div class="skill">
-                    <i class="fas fa-globe"></i>
-                    <h3>Web Dev</h3>
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
                 </div>
                 <div class="skill">
-                    <i class="fas fa-code"></i>
-                    <h3>CP/DSA</h3>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersec</h3>
                 </div>
                 <div class="skill">
-                    <i class="fab fa-java"></i>
-                    <h3>Java</h3>
-                </div>
-                <div class="skill">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Flutter</h3>
                 </div>
                 <div class="skill">
                     <i class="fab fa-node-js"></i>
@@ -76,6 +72,10 @@
                     <i class="fas fa-database"></i>
                     <h3>MongoDB</h3>
                 </div>
+                <div class="skill">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git/GitHub</h3>
+                </div>
             </div>
         </div>
     </section>
@@ -83,41 +83,59 @@
     <section id="projects" class="fade-in">
         <div class="container">
             <h2>Projects</h2>
-            <p>Here are some of the projects I've worked on recently.</p>
+            <p>Here are some of my major development and cybersecurity projects.</p>
             <div class="projects-grid">
-                <div class="project-card">
-                    <h3>QR Code Generator</h3>
-                    <p>Enter a link or text and generate a QR code that you can download and share.</p>
+                <div class="project-card featured">
+                    <h3>Pathfinder - Event Management App</h3>
+                    <p>A full-stack Flutter mobile app with Node.js backend and MongoDB Atlas. Features JWT authentication, CRUD operations, and image storage for college event management.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express.js</span>
+                    </div>
                     <div class="project-links">
-                        <a href="qrcodegenerator.html"><i class="fas fa-external-link-alt"></i> Live DemoI</a>
+                        <a href="https://github.com/Embontooth/pathfinder_Dhruv" target="_blank"><i class="fab fa-github"></i> View Code</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <h3>Bill Calculator and Splitter</h3>
-                    <p>Enter the bill amount, the tip percentage and number of friends you're splitting it. All done in just a second.</p>
+                <div class="project-card featured">
+                    <h3>RAG Backend System</h3>
+                    <p>A Retrieval-Augmented Generation (RAG) backend for answering queries from uploaded PDFs. Built with FastAPI and vectorized documents using FAISS with continuous uptime and public API access.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">FAISS</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">PDF Processing</span>
+                    </div>
                     <div class="project-links">
-                        <a href="billcalculator.html"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Embontooth/BajajHackX_Backend" target="_blank"><i class="fab fa-github"></i> View Code</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <h3>To-Do List</h3>
-                    <p>Add your tasks for the day and stay organised with this user friendly to do list</p>
+                <div class="project-card featured">
+                    <h3>PDF Password Cracker</h3>
+                    <p>Advanced Python cybersecurity tool for brute-force PDF password recovery. Features multi-threading, custom wordlists, and progress tracking for ethical security testing.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Multi-threading</span>
+                        <span class="tech-tag">Cybersecurity</span>
+                        <span class="tech-tag">CLI</span>
+                    </div>
                     <div class="project-links">
-                        <a href="ToDo.html"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Embontooth/PDF_cracker" target="_blank"><i class="fab fa-github"></i> View Code</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <h3>Countdown Timer</h3>
-                    <p>Count down to greatness with this minimalistic countdown timer</p>
-                    <div class="project-links">
-                        <a href="countdown-timer.html"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <div class="project-card featured">
+                    <h3>Subdomain Enumerator</h3>
+                    <p>Network security tool for subdomain enumeration with DNS resolution and HTTP checks. Supports multiple TLDs and uses multi-threading for fast scanning.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">DNS</span>
+                        <span class="tech-tag">Network Security</span>
+                        <span class="tech-tag">Threading</span>
                     </div>
-                </div>
-                <div class="project-card">
-                    <h3>Password Strength Checker</h3>
-                    <p>Make sure you're secure by checking how strong your password ranks on a simple, user friendly webpage</p>
                     <div class="project-links">
-                        <a href="passwordStrengthChecker.html"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Embontooth/Subdomain_Enumerator" target="_blank"><i class="fab fa-github"></i> View Code</a>
                     </div>
                 </div>
             </div>
@@ -143,8 +161,8 @@
         <div class="footer-content">
             <p class="copyright">© 2025 Dhruv's Portfolio. All Rights Reserved.</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Embontooth"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/dhruv-samuel-0211a527a/"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
